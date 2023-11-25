@@ -13,6 +13,7 @@ root.render(
     <br></br>
     <Primerio />
     <ComParametro titulo = "Classificações [React]" aluno = "Luis Alves" nota = {16.8} />
+    <ComParametro titulo = "Classificações [React]" aluno = "Tiago" nota = {6.8} />
   </div>
 );
 
