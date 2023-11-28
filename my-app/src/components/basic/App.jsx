@@ -5,7 +5,7 @@ import Primerio from "./Primeiro";
 import ComParametro from "./ComParametro";
 import Fragment from "./Fragment";
 
-export default () => {
+let App = () => {
     return (
     <div>
         <Primerio />
@@ -15,3 +15,4 @@ export default () => {
     </div>
     )
 } 
+export default App;
