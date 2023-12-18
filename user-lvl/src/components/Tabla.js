@@ -10,7 +10,7 @@ const Tabla = () => {
 
     let columnas;
     const selectUser = (id, level) => {
-        setState({ ...state, userid: id, userLevel: level });
+        setState({ ...state, userId: id, userLevel: level });
         console.log(state);
     }
     columnas = dataUsuarios.map((element) => {
